@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build:core && npm run build:web",
+  "buildCommand": "npm run build:vercel",
   "outputDirectory": "apps/playground-web/dist",
   "installCommand": "npm install",
   "framework": "vite",
