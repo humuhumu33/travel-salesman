@@ -1,6 +1,6 @@
 {
-  "buildCommand": "npm run build -w packages/core && npm run build -w apps/playground-web",
-  "outputDirectory": "apps/playground-web/dist",
+  "buildCommand": "cd ../.. && npm run build -w packages/core && npm run build -w apps/playground-web",
+  "outputDirectory": "dist",
   "installCommand": "npm install",
   "framework": "vite",
   "rewrites": [
